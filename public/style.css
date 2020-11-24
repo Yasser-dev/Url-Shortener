@@ -1,0 +1,11 @@
+#url-input:focus {
+  border-bottom: 1px solid #607d8b;
+  box-shadow: 0 1px 0 0 #607d8b;
+}
+#url-icon {
+  color: #607d8b;
+}
+
+#copied-badge {
+  display: none;
+}
