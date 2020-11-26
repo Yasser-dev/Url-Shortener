@@ -1,5 +1,5 @@
 {
-  "name": "url-Shortener",
+  "name": "url-shortener",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
     "http-errors": "^1.8.0",
     "mongoose": "^5.10.15",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }

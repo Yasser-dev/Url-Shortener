@@ -1,11 +1,19 @@
+root {
+  --maincolor: #607d8b;
+}
+
 #url-input:focus {
-  border-bottom: 1px solid #607d8b;
-  box-shadow: 0 1px 0 0 #607d8b;
+  border-bottom: 1px solid var(--maincolor);
+  box-shadow: 0 1px 0 0 var(--maincolor);
 }
 #url-icon {
-  color: #607d8b;
+  color: var(--maincolor);
 }
 
 #copied-badge {
   display: none;
+}
+
+a {
+  color: inherit;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Url Shortener</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -54,8 +55,10 @@
 
       <div class="card blue-grey lighten-1 left-align s12">
         <div class="card-content white-text">
-          <span class="card-title">
-            <p style="display: inline" id="shortenned-url"><%= short_url %></p>
+          <span class="card-title center">
+            <a href="<%=short_url%>" target="_blank" id="shortenned-url"
+              ><%= short_url %></a
+            >
 
             <a
               id="copy-btn"

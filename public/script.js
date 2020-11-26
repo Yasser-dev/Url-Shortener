@@ -12,8 +12,9 @@ function copyText(htmlElement) {
   document.execCommand("copy");
   inputElement.parentNode.removeChild(inputElement);
 }
-
-document.querySelector("#copy-btn").onclick = function () {
-  document.querySelector("#copied-badge").style.display = "inline";
-  copyText(document.querySelector("#shortenned-url"));
-};
+if (document.querySelector("#copy-btn") !== null) {
+  document.querySelector("#copy-btn").onclick = function () {
+    document.querySelector("#copied-badge").style.display = "inline";
+    copyText(document.querySelector("#shortenned-url"));
+  };
+}
